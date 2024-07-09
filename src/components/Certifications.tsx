@@ -10,8 +10,8 @@ export default function Certifications() {
      
       <div className="px-4 md:px-8 lg:px-20">
         <h1 className="text-[#1C3765] text-3xl md:text-4xl lg:text-5xl pt-12 md:pt-20 text-center font-semibold">
-          Empowering Individuals, Transforming Lives: Our <br />
-          MJK's Holistic Approach
+         ` Empowering Individuals, Transforming Lives: Our <br />
+          MJK's Holistic Approach`
         </h1>
         <h2 className="text-gray-400 text-base md:text-lg lg:text-xl pt-2 md:pt-4 text-center">
           Uniting for a Tuberculosis Free Future

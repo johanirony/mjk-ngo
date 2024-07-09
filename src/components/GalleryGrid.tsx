@@ -10,16 +10,57 @@ import image9 from "../assets/g9.jpg"
 import image5 from "../assets/g10.jpg"
 
 export default function GalleryGrid() {
-    const images=[image1,image2,image3,image4,image5,image6,image7,image8,image9]
+    const images=[
+      {
+        id:1,
+        file:image1
+      },
+      {
+        id:2,
+        file:image2
+      },
+      {
+        id:3,
+        file:image3
+      },
+      {
+        id:4,
+        file:image4
+      },
+      {
+        id:5,
+        file:image5
+      },
+      {
+        id:6,
+        file:image6
+      },
+      {
+        id:7,
+        file:image7
+      },
+      {
+        id:8,
+        file:image8
+      },
+      {
+        id:9,
+        file:image9
+      },
+
+
+    ]
+      
+    
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
       
         
-        { images.map((image,index)=>(
+        { images.map((file,id)=>(
             <div  className="relative overflow-hidden rounded-lg shadow-md">
-            <Image key={index}
-              src={image}
-              alt={`Image ${index+1}`}
+            <Image key={id}
+              src={file.file}
+              alt={`Image ${id+1}`}
               layout="responsive"
               width={300} 
               height={200} 
