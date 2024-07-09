@@ -21,8 +21,8 @@ export default function GalleryGrid() {
               src={image}
               alt={`Image ${index+1}`}
               layout="responsive"
-              width={300} /* Adjust as needed */
-              height={200} /* Adjust as needed */
+              width={300} 
+              height={200} 
               objectFit="cover"
             />
             <div className="absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity duration-300"></div>
