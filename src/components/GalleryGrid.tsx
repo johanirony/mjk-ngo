@@ -57,7 +57,7 @@ export default function GalleryGrid() {
       
         
         { images.map((file,id)=>(
-            <div  className="relative overflow-hidden rounded-lg shadow-md">
+            <div key={id}  className="relative overflow-hidden rounded-lg shadow-md">
             <Image key={id}
               src={file.file}
               alt={`Image ${id+1}`}
